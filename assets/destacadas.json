@@ -1,0 +1,83 @@
+{
+  "error": false,
+  "message": "ok",
+  "body": {
+    "propiedades": [
+      {
+        "id": 1,
+        "moneda": 1,
+        "nombre": "Propiedad con gran patio, en excelente ubicación",
+        "valor": 1500,
+        "tipo": 1,
+        "operacion": 2,
+        "ubicacion": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11253.850478963735!2d-58.66116772650988!3d-34.65506795049026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1620756179497!5m2!1ses!2sar' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+        "ambs": 2,
+        "habs": 2,
+        "banos": 1,
+        "garage": 1,
+        "patio": 1,
+        "mascotas": 1,
+        "arbolada": 1,
+        "piscina": 1,
+        "destacado": 1,
+        "descripcion": "Se ofrece a la comunidad una hermosa casa tipo chalet, con las siguientes características:\n-Lote de 10m x 37,90m\n-Living\n-Cocina comedor\n-2 habitaciones\n-Lavadero\n-Garage semi cubierto\n-Amplio patio\n-galpón\n\n-todos los servicios en puerta\ncolectivo a pocos metros",
+        "m2": 500,
+        "completado": 0,
+        "activo": 1,
+        "imagenes": {
+          "imagen1": "featured1.jpg"
+        }
+      },
+      {
+        "id": 4,
+        "nombre": "Casa en venta Marcos paz",
+        "moneda": 2,
+        "valor": 123145,
+        "tipo": 2,
+        "operacion": 1,
+        "ubicacion": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11246.44731222425!2d-58.60839386988009!3d-34.70955467703375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1620756512639!5m2!1ses!2sar' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+        "ambs": 2,
+        "habs": 4,
+        "banos": 2,
+        "garage": 1,
+        "patio": 1,
+        "mascotas": null,
+        "arbolada": null,
+        "piscina": 1,
+        "destacado": 1,
+        "descripcion": null,
+        "m2": 700,
+        "completado": 0,
+        "activo": 1,
+        "imagenes": {
+          "imagen1" : "featured2.jpg"
+        }
+      },
+      {
+        "id": 5,
+        "nombre": "Casa en venta",
+        "valor": 30000,
+        "moneda": 2,
+        "tipo": 1,
+        "operacion": 1,
+        "ubicacion": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11237.706813117778!2d-58.65700727474469!3d-34.77378793026423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1620756608928!5m2!1ses!2sar' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy'></iframe>",
+        "ambs": 3,
+        "habs": 4,
+        "banos": 2,
+        "garage": 1,
+        "patio": 1,
+        "mascotas": null,
+        "arbolada": null,
+        "piscina": 1,
+        "destacado": 1,
+        "descripcion": null,
+        "m2": 800,
+        "completado": 0,
+        "activo": 1,
+        "imagenes": {
+          "imagen1": "featured3.jpg"
+        }
+      }
+    ]
+  }
+}

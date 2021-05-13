@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/ed4a3d03cf.js" crossorigin="anonymous"></script>
+    <title>HOME</title>
+  </head>
+  <body>
+    <header class="header" data-header="home"></header>
+    <main>
+      <div class="slider">
+      </div>
+      <div class="search">
+        <h1 class="title">¿Qué <strong>buscas</strong>?</h1>
+        <div class="search__container">
+          <details class="search__details">
+            <summary class="search__title">
+              Comprar
+              <i class="search__arrow fas fa-sort-down"></i>
+            </summary>
+            <ol class="search__list">
+              <li class="search__item"><a href="/public/search.html?idtipo=1&opera=1" class="search__link">Casa</a></li>
+              <li class="search__item"><a href="/public/search.html?idtipo=2&opera=1" class="search__link">Cabaña</a></li>
+              <li class="search__item"><a href="/public/search.html?idtipo=3&opera=1" class="search__link">Quinta</a></li>
+            </ol>
+          </details>
+          <details class="search__details">
+            <summary class="search__title">
+              Alquilar
+              <i class="search__arrow fas fa-sort-down"></i>
+            </summary>
+            <ol class="search__list">
+              <li class="search__item"><a href="/public/search.html?idtipo=1&opera=2" class="search__link">Casa</a></li>
+              <li class="search__item"><a href="/public/search.html?idtipo=2&opera=2" class="search__link">Cabaña</a></li>
+              <li class="search__item"><a href="/public/search.html?idtipo=3&opera=2" class="search__link">Quinta</a></li>
+            </ol>
+          </details>
+          <a href="/public/contact.html" class="search__title">Vender</a>
+        </div>
+      </div>
+      <a href="https://api.whatsapp.com/send?phone=+5491169704077&text=Quisiera%20contactarme%20con%20ustedes" class="whatsapp" target="_blank"></a>
+      <h2 class="featured__title">Propiedades <strong>destacadas</strong></h2>
+      <section class="featured-container"></section>
+      <template id="featured-template">
+        <article class="featured" data-id="">
+          <img src="" class="featured__image" alt="Imagen de la propiedad destacada">
+          <div class="featured__dates">
+            <div class="featured__info">
+              <div class="featured__meters">
+                <i class="featured__icon fas fa-expand-alt"></i>
+                <p class="featured__paragraph meters"></p>
+              </div>
+              <div class="featured__bedroom">
+                <i class="featured__icon fas fa-bed"></i>
+                <p class="featured__paragraph bedroom"></p>
+              </div>
+              <div class="featured__bathroom">
+                <i class="featured__icon fas fa-bath"></i>
+                <p class="featured__paragraph bathroom"></p>
+              </div>
+            </div>
+            <button class="featured__button">Ampliar</button>
+          </div>
+        </article>
+      </template>
+      <div class="featured-expanded">
+        <div class="featured-expanded__presentation">
+          <div class="featured-expanded__main-data">
+            <h3 class="featured-expanded__sell-title">Venta </h3>
+            <strong class="featured-expanded__value"></strong>
+            <p class="featured-expanded__name"></p>
+            <img class="featured-expanded__image" src="" alt="">
+          </div>
+          <div class="featured-expanded__form"></div>
+        </div>
+        <div class="featured-expanded__info">
+          <div class="featured-expanded__secondary-data">
+            <h3 class="featured-expanded__title">Descripción</h3>
+            <pre class="featured-expanded__description"></pre>
+            <h3 class="featured-expanded__title">Detalles</h3>
+            <div class="featured-expanded__details">
+              <div class="featured-expanded__features">
+                <p>Superficia Total: <span class="featured-expanded__meters"></span> m2</p>
+                <p>Ambientes: <span class="featured-expanded__environments"></span></p>
+                <p>Dormitorios: <span class="featured-expanded__bedrooms"></span></p>
+                <p>Baños: <span class="featured-expanded__bathrooms"></span></p>
+              </div>
+              <div class="featured-expanded__benefits"></div>
+            </div>
+          </div>
+          <div class="featured-expanded__map-container"></div>
+        </div>
+        <i class="featured-expanded__close fas fa-times-circle"></i>
+      </div>
+      <section class="contact">
+        <article class="ubication"></article>
+        <article class="message"></article>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>

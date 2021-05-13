@@ -1,0 +1,12 @@
+<h2 class="form__title"><strong>contacto</strong></h2>
+<form class="form">
+  <input type="text" name="name" class="form__input" placeholder="Nombre" autocomplete="off" required
+    pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="Sólo debe introducir letras y espacios">
+  <input type="email" name="email" class="form__input" placeholder="Email" autocomplete="off" required
+    pattern="^[a-z0-9]+[\._0-9a-z]*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" title="Escribe un email válido">
+  <input type="tel" name="phone" class="form__input" placeholder="Teléfono" autocomplete="off" required pattern="">
+  <input type="text" name="location" class="form__input" placeholder="Localidad" autocomplete="off" required pattern="">
+  <textarea name="" class="form__textarea" cols="60" rows="10" placeholder="Mensaje" data-pattern="^.{5,254}$"
+    title="Mensaje es obligatorio, mínimo 5 letras" minlength="5"></textarea>
+  <input type="submit" class="form__button" value="Enviar">
+</form>
