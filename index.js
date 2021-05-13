@@ -127,6 +127,9 @@ document.addEventListener("DOMContentLoaded", e => {
     url : 'http://www.carolinacarcamo.com.ar/api/v1/propiedades',
     options : {
       method : 'GET',
+      headers : {
+        'Content-Type' : 'application/json'
+      },
       mode : 'no-cors'
     }
   })
